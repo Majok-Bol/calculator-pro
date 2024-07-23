@@ -4,51 +4,68 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-body {
+  
+  body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
     background-color: #f4f4f9;
+    overflow-x: hidden;
   }
-
+  
   #paragraph {
     width: 80%;
+<<<<<<< HEAD
     height: 50px;
     background-color:black;
+=======
+    height: auto;
+    background-color: black;
+>>>>>>> feature
     color: #fff;
     font-size: 2rem;
-    padding: 40px;
+    padding: 80px;
     border: 2px solid #000;
     border-radius: 5px;
     text-align: left;
-    margin:0.08rem;
+    margin: 0.08rem;
+    white-space: normal; /* Allow text to wrap */
+    overflow-wrap: break-word; /* Break words if necessary */
   }
-
-button {
-    width:20%;
-    height:40%;
+  
+  button {
+    width: 20%;
+    height: 40%;
     font-size: 1.5rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
-.div{
+  
+  .div {
     background-color: black;
+<<<<<<< HEAD
     width:80%;
     padding:0.2rem;
 }
 .btn{
+=======
+    width: 80%;
+    padding: 0.2rem;
+  }
+  
+  .btn {
+>>>>>>> feature
     font-size: 1rem;
-    border-radius:20px;
-    margin:4px;
-
-
-}
-.operator{
+    border-radius: 20px;
+    margin: 4px;
+  }
+  
+  .operator {
     font-size: 0.8rem;
+<<<<<<< HEAD
     border-radius:20px;
     margin:4px;
     padding:4px;
@@ -65,36 +82,33 @@ button {
     border-radius: 4px; 
 }
 .backspace{
+=======
+    border-radius: 20px;
+    margin: 4px;
+    padding: 4px;
+  }
+  
+  .div3 {
+    background-color: black;
+    width: 80%;
+    padding: 0.1rem;
+  }
+  
+  .div4 {
+    background-color: black;
+    width: 80%;
+    padding-bottom: 0.8rem;
+    border-radius: 4px;
+  }
+  
+  .backspace {
+>>>>>>> feature
     font-size: 1rem;
     border-radius: 22px;
-    padding:2px;
-    margin:2px;
-    
-}
-.decimal{
-font-size: 1.5;
-border-radius:18px;
-padding:2px;
-margin:2px;
-}
-#equal-button{
-    font-size: 1.4rem;
-    border-radius: 18px;
-
-}
-#del-button{
-    font-size: 1rem;
-    border-radius: 18px;
-    padding:4px;
-
-}
-@media  (min-width: 350px){
-    /* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 2px;
+    margin: 2px;
   }
+<<<<<<< HEAD
 
 body {
     font-family: Arial, sans-serif;
@@ -122,11 +136,16 @@ body {
 button {
     width:20%;
     height:40%;
+=======
+  
+  .decimal {
+>>>>>>> feature
     font-size: 1.5rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 18px;
+    padding: 2px;
+    margin: 2px;
   }
+<<<<<<< HEAD
 .div{
     background-color: black;
     width:99%;
@@ -170,15 +189,110 @@ padding:2px;
 margin:2px;
 }
 #equal-button{
+=======
+  
+  #equal-button {
+>>>>>>> feature
     font-size: 1.4rem;
     border-radius: 18px;
-
-}
-#del-button{
+  }
+  
+  #del-button {
     font-size: 1rem;
     border-radius: 18px;
-    padding:4px;
-
-}
-
-}
+    padding: 4px;
+  }
+  
+  @media (min-width: 350px) {
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+      background-color: #f4f4f9;
+      margin-left: 0.1rem;
+    }
+  
+    #paragraph {
+      width: 99%;
+      height: auto;
+      background-color: black;
+      color: #fff;
+      font-size: 2rem;
+      padding: 40px;
+      border: 2px solid #000;
+      border-radius: 5px;
+      text-align: left;
+      margin: 0.08rem;
+      white-space: normal; /* Allow text to wrap */
+      overflow-wrap: break-word; /* Break words if necessary */
+    }
+  
+    button {
+      width: 20%;
+      height: 40%;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    .div {
+      background-color: black;
+      width: 99%;
+      padding: 0.2rem;
+    }
+  
+    .btn {
+      font-size: 1rem;
+      border-radius: 20px;
+      margin: 4px;
+    }
+  
+    .operator {
+      font-size: 0.8rem;
+      border-radius: 20px;
+      margin: 4px;
+      padding: 4px;
+    }
+  
+    .div3 {
+      background-color: black;
+      width: 99%;
+      padding: 0.1rem;
+    }
+  
+    .div4 {
+      background-color: black;
+      width: 99%;
+      padding-bottom: 0.8rem;
+      border-radius: 4px;
+    }
+  
+    .backspace {
+      font-size: 1rem;
+      border-radius: 22px;
+      padding: 2px;
+      margin: 2px;
+    }
+  
+    .decimal {
+      font-size: 1.5rem;
+      border-radius: 18px;
+      padding: 2px;
+      margin: 2px;
+    }
+  
+    #equal-button {
+      font-size: 1.4rem;
+      border-radius: 18px;
+    }
+  
+    #del-button {
+      font-size: 1rem;
+      border-radius: 18px;
+      padding: 4px;
+    }
+  }
+  
