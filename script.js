@@ -73,6 +73,7 @@ let currentFunction = "";
 function updateDisplay() {
   const displayElement = document.getElementById("paragraph");
   displayElement.textContent = displayValue;
+    // Add line breaks if number exceeds 12 characters
 }
 
 // Add event listeners to number buttons
