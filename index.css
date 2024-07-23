@@ -1,62 +1,184 @@
-body{
+/* Basic reset */
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    display:flex;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-#paragraph{
-    background-color: rgba(0, 255, 255, 0.301);
-    width:29%;
-    font-size: 1.4rem;
-    margin-bottom: -0.1rem;
-}
+    height: 70vh;
+    background-color: #f4f4f9;
+  }
+
+  #paragraph {
+    width: 68%;
+    height: 50px;
+    background-color:black;
+    color: #fff;
+    font-size: 2rem;
+    padding: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-align: left;
+    margin:0.08rem;
+  }
+
+button {
+    width:20%;
+    height:40%;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 .div{
     background-color: black;
-    width:28%;
+    width:70%;
     padding:0.2rem;
 }
 .btn{
-    font-size: 1.8rem;
-    border-radius: 18px;
-    margin:2px;
+    font-size: 1rem;
+    border-radius:20px;
+    margin:4px;
+
 
 }
 .operator{
-    font-size: 1.9rem;
-    border-radius: 18px;
-    padding:14px;
+    font-size: 0.8rem;
+    border-radius:20px;
+    margin:4px;
+    padding:4px;
 }
 .div3{
-    background-color:rgba(65, 87, 25, 0.801);
-    width:27.2%;
-    padding:0.4rem;
+    background-color:black;
+    width:70%;
+    padding:0.1rem;
 }
 .div4{
-    background-color:rgb(0, 255, 200);
-    width:27.2%;
-    padding:0.4rem;  
+    background-color:black;
+    width:70%;
+    padding-bottom:0.8rem; 
+    border-radius: 4px; 
 }
 .backspace{
-    font-size: 1.9rem;
-    border-radius: 18px;
-    padding:6px;
+    font-size: 1rem;
+    border-radius: 22px;
+    padding:2px;
+    margin:2px;
     
 }
 .decimal{
-font-size: 2.4rem;
-border-radius: 22px;
-padding:12px;
+font-size: 1.5;
+border-radius:18px;
+padding:2px;
+margin:2px;
 }
 #equal-button{
-    font-size: 2.4rem;
+    font-size: 1.4rem;
     border-radius: 18px;
 
 }
 #del-button{
-    font-size: 1.8rem;
+    font-size: 1rem;
     border-radius: 18px;
+    padding:4px;
+
+}
+@media  (min-width: 350px){
+    /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f4f4f9;
+    margin-left: 4rem;
+  }
+
+  #paragraph {
+    width: 70%;
+    height: 50px;
+    background-color:black;
+    color: #fff;
+    font-size: 2rem;
+    padding: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-align: left;
+    margin:0.08rem;
+  }
+
+button {
+    width:20%;
+    height:40%;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.div{
+    background-color: black;
+    width:70%;
+    padding:0.2rem;
+}
+.btn{
+    font-size: 1rem;
+    border-radius:20px;
+    margin:4px;
+
+
+}
+.operator{
+    font-size: 0.8rem;
+    border-radius:20px;
+    margin:4px;
+    padding:4px;
+}
+.div3{
+    background-color:black;
+    width:70%;
+    padding:0.1rem;
+}
+.div4{
+    background-color:black;
+    width:70%;
+    padding-bottom:0.8rem; 
+    border-radius: 4px; 
+}
+.backspace{
+    font-size: 1rem;
+    border-radius: 22px;
+    padding:2px;
+    margin:2px;
+    
+}
+.decimal{
+font-size: 1.5;
+border-radius:18px;
+padding:2px;
+margin:2px;
+}
+#equal-button{
+    font-size: 1.4rem;
+    border-radius: 18px;
+
+}
+#del-button{
+    font-size: 1rem;
+    border-radius: 18px;
+    padding:4px;
+
+}
 
 }
