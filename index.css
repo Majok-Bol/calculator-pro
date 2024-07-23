@@ -1,3 +1,62 @@
 body{
-    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#paragraph{
+    background-color: rgba(0, 255, 255, 0.301);
+    width:29%;
+    font-size: 1.4rem;
+    margin-bottom: -0.1rem;
+}
+.div{
+    background-color: black;
+    width:28%;
+    padding:0.2rem;
+}
+.btn{
+    font-size: 1.8rem;
+    border-radius: 18px;
+    margin:2px;
+
+}
+.operator{
+    font-size: 1.9rem;
+    border-radius: 18px;
+    padding:14px;
+}
+.div3{
+    background-color:rgba(65, 87, 25, 0.801);
+    width:27.2%;
+    padding:0.4rem;
+}
+.div4{
+    background-color:rgb(0, 255, 200);
+    width:27.2%;
+    padding:0.4rem;  
+}
+.backspace{
+    font-size: 1.9rem;
+    border-radius: 18px;
+    padding:6px;
+    
+}
+.decimal{
+font-size: 2.4rem;
+border-radius: 22px;
+padding:12px;
+}
+#equal-button{
+    font-size: 2.4rem;
+    border-radius: 18px;
+
+}
+#del-button{
+    font-size: 1.8rem;
+    border-radius: 18px;
+
 }

@@ -6,45 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Pro</title>
     <link rel="stylesheet" href="./index.css" />
-    <script src="https://kit.fontawesome.com/63009a3ee4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <section id="header">
-        <p id="paragraph"></p>
-    </section>
-    <section id="section1">
-        <button class="btn">0</button>
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button class="btn">sin</button>
-        <button class="btn">tan</button>
-        <button class="btn">cos</button>
-        <button class="btn">x²</button>
-        <button class="btn">√</button>
-        <button class="btn">x³</button>
-        <button class="btn">log</button>
-    </section>
-    <section id="section2">
-        <div class="operator-div">
-            <button class="operator">+</button>
-            <button class="operator">-</button>
-            <button class="operator">*</button>
-            <button class="operator">/</button>
-            <button class="decimal">.</button>
-            <button class="backspace">←</button>
-            <button id="equal-button">=</button>
-            <button id="del-button">Del</button>
-        </div>
-    </section>
-    <script src="./script.js"></script>
+    <main id="main">
+        <section class="main">
+            <section id="header">
+                <p id="paragraph"></p>
+            </section>
+            <section id="section1">
+                <div class="div">
+                    <button class="btn">sin</button>
+                    <button class="btn">tan</button>
+                    <button class="btn">cos</button>
+                    <button class="btn">0</button>
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn">x²</button>
+                    <button class="btn">x³</button>
+                    <button class="btn">√</button>
+                    <button class="btn">log</button>
+                </div>
+            </section>
+            <section id="section2">
+                <div class="div3">
+                    <button class="operator">+</button>
+                    <button class="operator">-</button>
+                    <button class="operator">*</button>
+                    <button class="operator">/</button>
+                </div>
+                <div class="div4">
+                    <button class="decimal">.</button>
+                    <button class="backspace">←</button>
+                    <button id="equal-button">=</button>
+                    <button id="del-button">DEL</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
 </body>
+<script src="./script.js"></script>
 
 </html>

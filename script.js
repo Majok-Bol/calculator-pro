@@ -22,19 +22,19 @@ function divide(a, b) {
 // Function to calculate sine (input in degrees)
 function sin(degrees) {
   const radians = degrees * (Math.PI / 180);
-  return Math.sin(radians);
+  return Math.sin(radians).toFixed(4);
 }
 
 // Function to calculate tangent (input in degrees)
 function tan(degrees) {
   const radians = degrees * (Math.PI / 180);
-  return Math.tan(radians);
+  return Math.tan(radians).toFixed(4);
 }
 
 // Function to calculate cosine (input in degrees)
 function cos(degrees) {
   const radians = degrees * (Math.PI / 180);
-  return Math.cos(radians);
+  return Math.cos(radians).toFixed(4);
 }
 
 // // Function to calculate natural logarithm (base e)
