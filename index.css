@@ -15,7 +15,7 @@ body {
   }
 
   #paragraph {
-    width: 68%;
+    width: 80%;
     height: 50px;
     background-color:black;
     color: #fff;
@@ -37,7 +37,7 @@ button {
   }
 .div{
     background-color: black;
-    width:70%;
+    width:80%;
     padding:0.2rem;
 }
 .btn{
@@ -55,12 +55,12 @@ button {
 }
 .div3{
     background-color:black;
-    width:70%;
+    width:80%;
     padding:0.1rem;
 }
 .div4{
     background-color:black;
-    width:70%;
+    width:80%;
     padding-bottom:0.8rem; 
     border-radius: 4px; 
 }
@@ -103,11 +103,11 @@ body {
     align-items: center;
     height: 70vh;
     background-color: #f4f4f9;
-    margin-left: 4rem;
+    margin-left: 0.1rem;
   }
 
   #paragraph {
-    width: 70%;
+    width: 99%;
     height: 50px;
     background-color:black;
     color: #fff;
@@ -129,7 +129,7 @@ button {
   }
 .div{
     background-color: black;
-    width:70%;
+    width:99%;
     padding:0.2rem;
 }
 .btn{
@@ -147,12 +147,12 @@ button {
 }
 .div3{
     background-color:black;
-    width:70%;
+    width:99%;
     padding:0.1rem;
 }
 .div4{
     background-color:black;
-    width:70%;
+    width:99%;
     padding-bottom:0.8rem; 
     border-radius: 4px; 
 }
